@@ -1,5 +1,6 @@
-CAS Management Overlay
-============================
+# CAS Management Overlay
+
+这是一个 CAS Management WAR overlay 配置示例。Gradle 定义构建，外部配置独立于 WAR。JDK 11 是仓库声明的构建环境。可以从 [Gradle 构建](build.gradle)、[外部配置](etc/cas/config/management.properties) 和 [Docker 构建](Dockerfile) 沿着打包与部署过程阅读。下方保留原有构建文档。
 
 CAS management web application WAR overlay for CAS with externalized configuration.
 
